@@ -8,6 +8,8 @@ public class App {
         int userChoice = scanner.nextInt();
         if (userChoice == 1) {
             System.out.println("'Blackjack' chosen. Wise, I must say");
+            blackJack blackjackGame = new blackJack();
+            blackjackGame.playGame();
         }
         if (userChoice == 2) {
             System.out.println("'Minecraft Guesser' chosen. Trivial, I see.");
